@@ -20,6 +20,7 @@ if (s2 == NULL)
 s2 = "";
 
 strlen1 = _strlen(s1);
+
 p = malloc((strlen1 + n + 1) * sizeof(char));
 if (p == NULL)
 return (NULL);
